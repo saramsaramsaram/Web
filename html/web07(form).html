@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>아이디: <input type="text" minlength="6" maxlength="10" value="dgsw" size="10" autofocus></label><br>
+        <label for="pw">비밀번호: </label><input id="pw" type="password" required><br>
+        <input type="submit" value="로그인"><input type="reset" value="취소"><br>
+        <input type="image" src="../images/login.png" alt="로그인">
+        <input type="button" value="아이디/비밀번호 찾기">
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>상품 정보</legend>
+            <label>검색: <input type="search" placeholder="검색어를 입력하세요."></label><br>
+            <label>웹사이트: <input type="url" value="https://"></label>
+            <br>
+            <label><input type="checkbox" name="product" value="h3" checked>가정용 3kg</label>
+            <input type="number" min="0" max="10" step="2" value="최대 10개"><br>
+            <label><input type="checkbox" name="product" value="h7">가정용 7kg</label>
+            <input type="range" min="0" max="10" step="2" value="0"><br>
+            <label><input type="checkbox" name="product" value="p10">선물용 10kg</label>
+            <input type="number"><br>
+            <label><input type="checkbox" name="product" value="p5">선물용 5kg</label>
+            <input type="number"><br>
+            <select>
+                <option value="hom3" selected>가정용 3kg</option>
+                <option value="hom7">가정용 7kg</option>
+                <option value="p10">선물용 10kg</option>
+                <option value="p5">선물용 5kg</option>
+            </select>
+            <br>
+            <input type="radio" name="pack" value="y" checked><label>포장</label>
+            <br>
+            <input type="radio" name="pack" value="n"><label>배송</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>배송 정보</legend>
+            <input type="email" placeholder="이메일 주소를 입력하세요." readonly><br>
+            <label>배송일 지정<input type="date"></label>
+            <input type="month">
+            <input type="week">
+            <input type="time">
+            <input type="datetime-local">
+            
+            
+        </fieldset>
+        <button type="submit">제출</button>
+        <button type="reset">초기화</button>
+        <button type="button">문의사항</button>
+        <input type="file">
+        <button type="submit"><img src="../images/login.png"></button>
+        <textarea cols="20" rows="5"></textarea>
+    </form>
+</body>
+</html>

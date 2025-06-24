@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1412이주환</title>
+    <link rel="stylesheet" href="../css/web_1412이주환.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+</head>
+<body>
+    <!-- 아 힘들다 아아ㅏ아아아아아아아ㅏ아앙ㅇㅇㅇ -->
+
+    <h1>재난 안전 종합 안내</h1>
+    <!-- 누르면 해당 부분으로 이동하는 메뉴 -->
+    <div class="container">
+        <ul class="menu">
+            <li><a href="#status">재난 현황</a></li>
+            <li><a href="#apply">재난 훈련 신청</a></li>
+            <li><a href="#gallery">재난 갤러리</a></li>
+            <li><a href="#guide">이용안내</a></li>
+        </ul>
+    </div>
+    <!-- 검색창 -->
+    <form id="search-form">
+        <input type="text" placeholder="재난 정보 검색">
+        <button type="submit">검색</button>
+    </form>
+    <div class="title">
+        재난 예방
+    </div>
+
+    <div id="main-image">
+        <img src="https://www.chosun.com/resizer/v2/A6M3OD2PLNPZBOLMA4TCPYFELY.jpg?auth=a13c88b4364e72d59b8f25211d95588b7eb4b86a19b75d7f23d0071dc7886a2a&width=616">
+
+    </div>
+    <!-- 재난 현황 -->
+    <div id="status">
+        <h2>재난 현황표</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>재난 종류</th>
+                    <th>발생 건수</th>
+                    <th>예방 방법</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>지진</td>
+                    <td>3</td>
+                    <td>탁자 아래 대피, 머리 보호</td>
+                </tr>
+                <tr>
+                    <td>홍수</td>
+                    <td>2</td>
+                    <td>높은 곳으로 대피, 전기 차단</td>
+                </tr>
+                <tr>
+                    <td>화재</td>
+                    <td>5</td>
+                    <td>소화기 사용, 연기 피하기</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 재난 훈련 신청 폼 -->
+    <div id="apply">
+        <h2>재난 훈련 신청</h2>
+        <form>
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="disaster-type">재난 종류:</label>
+            <select id="disaster-type" name="disaster-type" required>
+                <option value="earthquake">지진</option>
+                <option value="flood">홍수</option>
+                <option value="fire">화재</option>
+            </select>
+            <label for="date">희망 날짜:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">신청하기</button>
+        </form>
+    </div>
+    <!-- 여러 재난 사진 -->
+    <div id="gallery">
+        <h2>재난 갤러리</h2>
+        <div class="gallery">
+            <img src="https://cdn.jejusori.net/news/photo/202302/412130_420642_3634.jpg" alt="재난 이미지 1">
+            <img src="https://img3.yna.co.kr/etc/inner/KR/2016/05/27/AKR20160527153400060_01_i_P2.jpg" alt="재난 이미지 2">
+            <img src="https://www.koit.co.kr/news/photo/202303/110260_62625_2838.jpg" alt="재난 이미지 3">
+        </div>
+    </div>
+    <!-- rkdlem 가이드 -->
+    <div id="guide">
+        <h2>이용안내</h2>
+        <ul>
+            <li>메뉴를 통해 다양한 재난 정보를 확인할 수 있습니다.</li>
+            <li>체험 신청 폼을 통해 재난별 체험을 신청할 수 있습니다.</li>
+            <li>갤러리에서 실제 재난 상황을 볼 수 있습니다.</li>
+            <li>더 많은 정보는 <a href="https://www.safekorea.go.kr/idsiSFK/neo/main/main.html">여기</a>를 클릭하세요.</li>
+
+        </ul>
+    </div>
+
+
+    <!-- 사이트 정보 -->
+    <footer class="site-info">
+        <h3><i class="fi fi-sr-badge-check"></i>사이트 정보</h3>
+        <ul>
+            <li><a href="#guide">사이트 이용안내</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li>담당자: 1412이주환</li>
+            <li>주소: 대구소프트웨어마이스터고</li>
+            <li>
+                <a href="https://www.safekorea.go.kr/idsiSFK/neo/main/main.html">국민재난안내포털 바로가기</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

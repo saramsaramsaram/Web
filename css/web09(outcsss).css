@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+
+
+#container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    display: inline-block;
+    background-color: #0404aa;
+    color: #fff;
+    font-family: "Grandiflora One", cursive;
+    font-weight: 400;
+    font-style: normal;
+/*  font-family: "필기체", "배달의민족 주아"; */
+}
+
+.accent {
+    font-weight: bold;
+    color: red;
+}
+
+.fsize {
+    /* font-size: 20px; */
+    /* font-size: 1.5em; */
+    font-size: 1.5rem;
+    /* font-style: italic; */
+    font-weight: bold;
+    color:#0404aa;
+}
